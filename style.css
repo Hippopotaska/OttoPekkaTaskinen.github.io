@@ -1,0 +1,150 @@
+h1, h2, h3, p {
+	font-family: 'Roboto', sans-serif;
+	color: #1E3334;
+}
+h1, h2 {
+	font-style: bold;
+	font-size: 30px;
+}
+
+a:link, a:visited, a:hover {
+	color: #6793D4;
+}
+
+.imagelink {
+	width: 40px;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.bot-container {
+	background-color: #63A08B;
+	padding-top: 10px;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+}
+
+.projects-text {
+	float: left;
+	width: 90%;
+}
+
+.container-bg-ovh {
+	background-color: #E1E1D3;
+	overflow: hidden;
+	
+	box-shadow: -7.5px 10px #63A08B;
+
+	height: 100%;
+	max-width: 1000px;
+	min-width: 400px;
+	width: 75%;
+	margin: auto;
+}
+
+.container-bg {
+	background-color: #E1E1D3;
+	
+	box-shadow: -7.5px 10px #63A08B;
+
+	height: 100%;
+	max-width: 1000px;
+	min-width: 400px;
+	width: 75%;
+	margin: auto;
+}
+
+.container-title {
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+.welcome-image {
+	float: right;
+	position: relative;
+	
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+	width: 250px;
+	height: 275px;
+}
+
+.container-slideshow {
+	position: relative;
+	margin: auto;
+	
+	width: 100%;
+	max-width: 900px;
+	min-width: 350px;
+
+	height: auto;
+	
+	padding-bottom: 25px;
+}
+
+.mySlides {
+	display: none;
+	float: middle;
+
+	width: 90%;
+	height: auto;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.myDesc {
+	text-align: left;
+	
+	padding-left: 40px;
+	padding-bottom: 90px;
+}
+
+.description-div {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 15px;
+	padding-top: -10px;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -45px;
+	padding: 16px;
+
+	font-weight: bold;
+	color: #E1E1D3;
+	font-size: 25px;
+	user-select: none;
+
+	background-color: rgba(30, 51, 52, 0.8);
+}
+
+.next {
+	right: 0;
+}
+
+.container-text {
+	text-align: center-left;
+		
+	padding-left: 40px;
+	padding-right: 100px;
+	padding-bottom: 15px;
+	padding-top: -5px;
+}
+
+.spacer {
+	height: 50px;
+	width: 100%;
+}
